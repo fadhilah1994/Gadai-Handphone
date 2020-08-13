@@ -25,7 +25,7 @@
 		8E00B66B24E522F800DA4AED /* PostResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E00B66A24E522F800DA4AED /* PostResponse.swift */; };
 		8E00B66D24E5230C00DA4AED /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E00B66C24E5230C00DA4AED /* PostModel.swift */; };
 		8E00B66F24E5232D00DA4AED /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E00B66E24E5232D00DA4AED /* NetworkManager.swift */; };
-		8E00B67324E5239E00DA4AED /* ContentViewGadaiElektronik.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E00B67224E5239E00DA4AED /* ContentViewGadaiElektronik.swift */; };
+		8E00B67324E5239E00DA4AED /* ContentViewGadaiLaptop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E00B67224E5239E00DA4AED /* ContentViewGadaiLaptop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,7 +70,7 @@
 		8E00B66A24E522F800DA4AED /* PostResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostResponse.swift; sourceTree = "<group>"; };
 		8E00B66C24E5230C00DA4AED /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		8E00B66E24E5232D00DA4AED /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
-		8E00B67224E5239E00DA4AED /* ContentViewGadaiElektronik.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewGadaiElektronik.swift; sourceTree = "<group>"; };
+		8E00B67224E5239E00DA4AED /* ContentViewGadaiLaptop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewGadaiLaptop.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +110,7 @@
 		0453D52E24E50B9000757AB3 /* Feature */ = {
 			isa = PBXGroup;
 			children = (
+				2CDB726F24E52E830085F98A /* GadaiLaptop */,
 				8E00B66324E5222B00DA4AED /* GadaiElektronik */,
 				0453D55424E51A3A00757AB3 /* SimulasiKredit */,
 				0453D53024E50C2400757AB3 /* Auth */,
@@ -261,7 +262,7 @@
 			path = "Training Pegadaian batch 1UITests";
 			sourceTree = "<group>";
 		};
-		8E00B66324E5222B00DA4AED /* GadaiElektronik */ = {
+		2CDB726F24E52E830085F98A /* GadaiLaptop */ = {
 			isa = PBXGroup;
 			children = (
 				8E00B66724E5226700DA4AED /* VM */,
@@ -269,13 +270,20 @@
 				8E00B66524E5225A00DA4AED /* Service */,
 				8E00B66424E5224B00DA4AED /* View */,
 			);
+			path = GadaiLaptop;
+			sourceTree = "<group>";
+		};
+		8E00B66324E5222B00DA4AED /* GadaiElektronik */ = {
+			isa = PBXGroup;
+			children = (
+			);
 			path = GadaiElektronik;
 			sourceTree = "<group>";
 		};
 		8E00B66424E5224B00DA4AED /* View */ = {
 			isa = PBXGroup;
 			children = (
-				8E00B67224E5239E00DA4AED /* ContentViewGadaiElektronik.swift */,
+				8E00B67224E5239E00DA4AED /* ContentViewGadaiLaptop.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -448,7 +456,7 @@
 				0453D55124E5175D00757AB3 /* Library.swift in Sources */,
 				0453D54924E5171300757AB3 /* ViewModel.swift in Sources */,
 				0453D55324E5176C00757AB3 /* ButtonSave.swift in Sources */,
-				8E00B67324E5239E00DA4AED /* ContentViewGadaiElektronik.swift in Sources */,
+				8E00B67324E5239E00DA4AED /* ContentViewGadaiLaptop.swift in Sources */,
 				0453D53B24E5113B00757AB3 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
