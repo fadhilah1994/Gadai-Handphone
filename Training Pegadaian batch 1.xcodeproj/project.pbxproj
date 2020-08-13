@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0453D53B24E5113B00757AB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0453D53A24E5113B00757AB3 /* ContentView.swift */; };
+		0453D54924E5171300757AB3 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0453D54824E5171300757AB3 /* ViewModel.swift */; };
+		0453D54B24E5172700757AB3 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0453D54A24E5172700757AB3 /* AuthService.swift */; };
+		0453D54D24E5173200757AB3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0453D54C24E5173200757AB3 /* Model.swift */; };
+		0453D54F24E5174D00757AB3 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0453D54E24E5174D00757AB3 /* Helper.swift */; };
+		0453D55124E5175D00757AB3 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0453D55024E5175D00757AB3 /* Library.swift */; };
+		0453D55324E5176C00757AB3 /* ButtonSave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0453D55224E5176C00757AB3 /* ButtonSave.swift */; };
+		04B4974524E255F300647231 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4974424E255F300647231 /* AppDelegate.swift */; };
+		04B4974724E255F300647231 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4974624E255F300647231 /* SceneDelegate.swift */; };
+		04B4974B24E255F900647231 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B4974A24E255F900647231 /* Assets.xcassets */; };
+		04B4974E24E255F900647231 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B4974D24E255F900647231 /* Preview Assets.xcassets */; };
+		04B4975124E255F900647231 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B4974F24E255F900647231 /* LaunchScreen.storyboard */; };
+		04B4975C24E255F900647231 /* Training_Pegadaian_batch_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4975B24E255F900647231 /* Training_Pegadaian_batch_1Tests.swift */; };
+		04B4976724E255F900647231 /* Training_Pegadaian_batch_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4976624E255F900647231 /* Training_Pegadaian_batch_1UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04B4975824E255F900647231 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B4973924E255F200647231 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04B4974024E255F200647231;
+			remoteInfo = "Training Pegadaian batch 1";
+		};
+		04B4976324E255F900647231 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B4973924E255F200647231 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04B4974024E255F200647231;
+			remoteInfo = "Training Pegadaian batch 1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0453D53A24E5113B00757AB3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0453D54824E5171300757AB3 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		0453D54A24E5172700757AB3 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		0453D54C24E5173200757AB3 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		0453D54E24E5174D00757AB3 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		0453D55024E5175D00757AB3 /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
+		0453D55224E5176C00757AB3 /* ButtonSave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSave.swift; sourceTree = "<group>"; };
+		04B4974124E255F300647231 /* Training Pegadaian batch 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Training Pegadaian batch 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B4974424E255F300647231 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04B4974624E255F300647231 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		04B4974A24E255F900647231 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04B4974D24E255F900647231 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04B4975024E255F900647231 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04B4975224E255F900647231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B4975724E255F900647231 /* Training Pegadaian batch 1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Training Pegadaian batch 1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B4975B24E255F900647231 /* Training_Pegadaian_batch_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training_Pegadaian_batch_1Tests.swift; sourceTree = "<group>"; };
+		04B4975D24E255F900647231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B4976224E255F900647231 /* Training Pegadaian batch 1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Training Pegadaian batch 1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B4976624E255F900647231 /* Training_Pegadaian_batch_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training_Pegadaian_batch_1UITests.swift; sourceTree = "<group>"; };
+		04B4976824E255F900647231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04B4973E24E255F200647231 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B4975424E255F900647231 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B4975F24E255F900647231 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0453D52C24E509E600757AB3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				04B4974624E255F300647231 /* SceneDelegate.swift */,
+				04B4974424E255F300647231 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		0453D52E24E50B9000757AB3 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				0453D55424E51A3A00757AB3 /* SimulasiKredit */,
+				0453D53024E50C2400757AB3 /* Auth */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		0453D52F24E50BCE00757AB3 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				0453D53724E50D4F00757AB3 /* View */,
+				0453D53624E50D1A00757AB3 /* Library */,
+				0453D53524E50D0E00757AB3 /* Helper */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		0453D53024E50C2400757AB3 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				0453D53424E50C6B00757AB3 /* View */,
+				0453D53324E50C6200757AB3 /* VM */,
+				0453D53224E50C5700757AB3 /* Service */,
+				0453D53124E50C5100757AB3 /* Model */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		0453D53124E50C5100757AB3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0453D54C24E5173200757AB3 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0453D53224E50C5700757AB3 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				0453D54A24E5172700757AB3 /* AuthService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		0453D53324E50C6200757AB3 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				0453D54824E5171300757AB3 /* ViewModel.swift */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		0453D53424E50C6B00757AB3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0453D53A24E5113B00757AB3 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0453D53524E50D0E00757AB3 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				0453D54E24E5174D00757AB3 /* Helper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		0453D53624E50D1A00757AB3 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				0453D55024E5175D00757AB3 /* Library.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		0453D53724E50D4F00757AB3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0453D55224E5176C00757AB3 /* ButtonSave.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0453D55424E51A3A00757AB3 /* SimulasiKredit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SimulasiKredit;
+			sourceTree = "<group>";
+		};
+		04B4973824E255F200647231 = {
+			isa = PBXGroup;
+			children = (
+				04B4974324E255F300647231 /* Training Pegadaian batch 1 */,
+				04B4975A24E255F900647231 /* Training Pegadaian batch 1Tests */,
+				04B4976524E255F900647231 /* Training Pegadaian batch 1UITests */,
+				04B4974224E255F300647231 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04B4974224E255F300647231 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04B4974124E255F300647231 /* Training Pegadaian batch 1.app */,
+				04B4975724E255F900647231 /* Training Pegadaian batch 1Tests.xctest */,
+				04B4976224E255F900647231 /* Training Pegadaian batch 1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04B4974324E255F300647231 /* Training Pegadaian batch 1 */ = {
+			isa = PBXGroup;
+			children = (
+				0453D52F24E50BCE00757AB3 /* Shared */,
+				0453D52E24E50B9000757AB3 /* Feature */,
+				0453D52C24E509E600757AB3 /* App */,
+				04B4974A24E255F900647231 /* Assets.xcassets */,
+				04B4974F24E255F900647231 /* LaunchScreen.storyboard */,
+				04B4975224E255F900647231 /* Info.plist */,
+				04B4974C24E255F900647231 /* Preview Content */,
+			);
+			path = "Training Pegadaian batch 1";
+			sourceTree = "<group>";
+		};
+		04B4974C24E255F900647231 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04B4974D24E255F900647231 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04B4975A24E255F900647231 /* Training Pegadaian batch 1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				04B4975B24E255F900647231 /* Training_Pegadaian_batch_1Tests.swift */,
+				04B4975D24E255F900647231 /* Info.plist */,
+			);
+			path = "Training Pegadaian batch 1Tests";
+			sourceTree = "<group>";
+		};
+		04B4976524E255F900647231 /* Training Pegadaian batch 1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				04B4976624E255F900647231 /* Training_Pegadaian_batch_1UITests.swift */,
+				04B4976824E255F900647231 /* Info.plist */,
+			);
+			path = "Training Pegadaian batch 1UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04B4974024E255F200647231 /* Training Pegadaian batch 1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B4976B24E255F900647231 /* Build configuration list for PBXNativeTarget "Training Pegadaian batch 1" */;
+			buildPhases = (
+				04B4973D24E255F200647231 /* Sources */,
+				04B4973E24E255F200647231 /* Frameworks */,
+				04B4973F24E255F200647231 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Training Pegadaian batch 1";
+			productName = "Training Pegadaian batch 1";
+			productReference = 04B4974124E255F300647231 /* Training Pegadaian batch 1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04B4975624E255F900647231 /* Training Pegadaian batch 1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B4976E24E255F900647231 /* Build configuration list for PBXNativeTarget "Training Pegadaian batch 1Tests" */;
+			buildPhases = (
+				04B4975324E255F900647231 /* Sources */,
+				04B4975424E255F900647231 /* Frameworks */,
+				04B4975524E255F900647231 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04B4975924E255F900647231 /* PBXTargetDependency */,
+			);
+			name = "Training Pegadaian batch 1Tests";
+			productName = "Training Pegadaian batch 1Tests";
+			productReference = 04B4975724E255F900647231 /* Training Pegadaian batch 1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04B4976124E255F900647231 /* Training Pegadaian batch 1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B4977124E255F900647231 /* Build configuration list for PBXNativeTarget "Training Pegadaian batch 1UITests" */;
+			buildPhases = (
+				04B4975E24E255F900647231 /* Sources */,
+				04B4975F24E255F900647231 /* Frameworks */,
+				04B4976024E255F900647231 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04B4976424E255F900647231 /* PBXTargetDependency */,
+			);
+			name = "Training Pegadaian batch 1UITests";
+			productName = "Training Pegadaian batch 1UITests";
+			productReference = 04B4976224E255F900647231 /* Training Pegadaian batch 1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04B4973924E255F200647231 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Pegadaian Digital";
+				TargetAttributes = {
+					04B4974024E255F200647231 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					04B4975624E255F900647231 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 04B4974024E255F200647231;
+					};
+					04B4976124E255F900647231 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 04B4974024E255F200647231;
+					};
+				};
+			};
+			buildConfigurationList = 04B4973C24E255F200647231 /* Build configuration list for PBXProject "Training Pegadaian batch 1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04B4973824E255F200647231;
+			productRefGroup = 04B4974224E255F300647231 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04B4974024E255F200647231 /* Training Pegadaian batch 1 */,
+				04B4975624E255F900647231 /* Training Pegadaian batch 1Tests */,
+				04B4976124E255F900647231 /* Training Pegadaian batch 1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04B4973F24E255F200647231 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B4975124E255F900647231 /* LaunchScreen.storyboard in Resources */,
+				04B4974E24E255F900647231 /* Preview Assets.xcassets in Resources */,
+				04B4974B24E255F900647231 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B4975524E255F900647231 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B4976024E255F900647231 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04B4973D24E255F200647231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B4974524E255F300647231 /* AppDelegate.swift in Sources */,
+				0453D54F24E5174D00757AB3 /* Helper.swift in Sources */,
+				04B4974724E255F300647231 /* SceneDelegate.swift in Sources */,
+				0453D54B24E5172700757AB3 /* AuthService.swift in Sources */,
+				0453D54D24E5173200757AB3 /* Model.swift in Sources */,
+				0453D55124E5175D00757AB3 /* Library.swift in Sources */,
+				0453D54924E5171300757AB3 /* ViewModel.swift in Sources */,
+				0453D55324E5176C00757AB3 /* ButtonSave.swift in Sources */,
+				0453D53B24E5113B00757AB3 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B4975324E255F900647231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B4975C24E255F900647231 /* Training_Pegadaian_batch_1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B4975E24E255F900647231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B4976724E255F900647231 /* Training_Pegadaian_batch_1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04B4975924E255F900647231 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04B4974024E255F200647231 /* Training Pegadaian batch 1 */;
+			targetProxy = 04B4975824E255F900647231 /* PBXContainerItemProxy */;
+		};
+		04B4976424E255F900647231 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04B4974024E255F200647231 /* Training Pegadaian batch 1 */;
+			targetProxy = 04B4976324E255F900647231 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04B4974F24E255F900647231 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04B4975024E255F900647231 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04B4976924E255F900647231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04B4976A24E255F900647231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04B4976C24E255F900647231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Training Pegadaian batch 1/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Training Pegadaian batch 1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "id.co.pegadaian.digital.Training-Pegadaian-batch-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04B4976D24E255F900647231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Training Pegadaian batch 1/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Training Pegadaian batch 1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "id.co.pegadaian.digital.Training-Pegadaian-batch-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04B4976F24E255F900647231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Training Pegadaian batch 1Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "id.co.pegadaian.digital.Training-Pegadaian-batch-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Training Pegadaian batch 1.app/Training Pegadaian batch 1";
+			};
+			name = Debug;
+		};
+		04B4977024E255F900647231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Training Pegadaian batch 1Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "id.co.pegadaian.digital.Training-Pegadaian-batch-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Training Pegadaian batch 1.app/Training Pegadaian batch 1";
+			};
+			name = Release;
+		};
+		04B4977224E255F900647231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Training Pegadaian batch 1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "id.co.pegadaian.digital.Training-Pegadaian-batch-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Training Pegadaian batch 1";
+			};
+			name = Debug;
+		};
+		04B4977324E255F900647231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Training Pegadaian batch 1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "id.co.pegadaian.digital.Training-Pegadaian-batch-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Training Pegadaian batch 1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04B4973C24E255F200647231 /* Build configuration list for PBXProject "Training Pegadaian batch 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B4976924E255F900647231 /* Debug */,
+				04B4976A24E255F900647231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B4976B24E255F900647231 /* Build configuration list for PBXNativeTarget "Training Pegadaian batch 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B4976C24E255F900647231 /* Debug */,
+				04B4976D24E255F900647231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B4976E24E255F900647231 /* Build configuration list for PBXNativeTarget "Training Pegadaian batch 1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B4976F24E255F900647231 /* Debug */,
+				04B4977024E255F900647231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B4977124E255F900647231 /* Build configuration list for PBXNativeTarget "Training Pegadaian batch 1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B4977224E255F900647231 /* Debug */,
+				04B4977324E255F900647231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04B4973924E255F200647231 /* Project object */;
+}
